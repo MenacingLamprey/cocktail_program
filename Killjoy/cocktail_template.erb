@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= skeleton_key.cocktail_name %></title>
+</head>
+<body>
+	<h1><%= skeleton_key.cocktail_name %></h1>
+	<table>
+		<th>Ingredient</th><th>Volume</th>
+		<% skeleton_key.ingredients.each do |ingredient, amount| %>
+		<tr>
+			<td><%= "#{ingredient}" %></td>
+			<td><%= "#{amount}" %></td>
+		</tr>
+		<% end %>
+	</table>
+
+	<p><%= "#{skeleton_key.process}" %><p>
+
+ 	<p><%= "#{skeleton_key.description}"%><p>
+</body>
+</html>
