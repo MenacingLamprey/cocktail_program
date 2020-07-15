@@ -9,13 +9,12 @@ class CocktailFormatter
 		@unformated_menu = IO.new(IO.sysopen unformated_menu)
 	end
 
-
-	def get_cocktail(line =unformated_menu.gets)
-
-		def skip_line(n=1)
+	def skip_line(n=1)
 			(n-1).times {unformated_menu.gets}
 			unformated_menu.gets
 		end
+
+	def get_cocktail(line)
 
 		def line_empty?(line)
 			line.nil? || line.length==2
@@ -61,8 +60,6 @@ class CocktailFormatter
 			end
 		end
 
-		line = skip_line(3)
-
 		cocktail_name, line = get_name(line)
 		ingredients, line  = get_ingredients(line)
 		mode, line = get_mode(line)
@@ -76,10 +73,20 @@ class CocktailFormatter
 					 glass, garnish, image = nil), line]
 	end
 
+	def make_menu(line =unformated_menu.gets)
+		line = skip_line(3)
+		drinks =[]
+		until line.nil?
+			puts line
+			next_cocktail,line = get_cocktail(line)
+			drinks.push(next_cocktail)
+		end
+		drinks
+	end
 
 end			
 
-CocktailFormatter.new("menus/Summer_2020_specs.txt",nil).get_cocktail
+puts CocktailFormatter.new("menus/Summer_2020_specs.txt",nil).make_menu
 
 =begin
 

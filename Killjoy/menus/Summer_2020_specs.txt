@@ -13,15 +13,14 @@ Garnish - Orange Peel
 
 Info + Technique - Build in the glass over Block Ice, stir 30-40 rotations (dependant on block size / More rotations for larger ice)
 end
- 
+
 Name: Manero
 
 1.5 oz - Midori
 1 oz - Cachaca
-Whole Egg
+1 - Egg
 
-Mode - Dry + 
-Ice Shake // Up
+Mode - Dry + Ice Shake // Up
 Glass - Coupe
 Garnish - Matcha Tea Powder
 
@@ -70,11 +69,11 @@ end
 
 Name: Godcousin
 
-1 pt Cognac
-1 pt Amaretto
-1 pt Passionfruit Puree
-1 pt Lemon Juice
-3 pt Cinnamon Tea
+1 pt - Cognac
+1 pt - Amaretto
+1 pt - Passionfruit Puree
+1 pt - Lemon Juice
+3 pt - Cinnamon Tea
 5/3 pt - Simple Syrup
 
 Mode - Frozen
@@ -87,7 +86,7 @@ end
 Name: The Luckiest
 
 3 oz - Luckiest Mix
-Pinch of Marshmallows
+Pinch - Marshmallows
 
 Mode - Stir // Down
 Glass - Rocks // Block Ice
@@ -113,7 +112,7 @@ Name: Tahini Colada
 1.5 oz - Tahini Coconut Cream
 1.5 oz - Pineapple Juice
 2 dashes - Cranberry Bitters
-2 cracked Bay Leaves
+2 - cracked Bay Leaves
 
 Mode - Whipped // Tall
 Glass - Collins // Pebble Ice
@@ -141,9 +140,9 @@ Name: Gordon’s Chip
 1.5 oz - Pineapple Juice
 0.75 oz - Lime Juice
 0.75 oz - Simple Syrup
-2 dashes Valentina Hot Sauce
-4 cucumber slices
-2 pinches S+P
+2 dashes -  Valentina Hot Sauce
+4 - cucumber slices
+2 - pinches S+P
 
 Mode - Shake //  Down (Dirty)
 Glass - Double Old Fashioned // Cracked Ice
@@ -191,11 +190,11 @@ end
 
 Name: Chico Bounce
 
-1 bottle of Topo Chico
+1 - bottle of Topo Chico
 1 oz - Cherry Shrub
-1 sprig of Rosemary
-1 Orange Peel
-1 Cherry
+1 - sprig of Rosemary
+1 - Orange Peel
+1 - Cherry
 
 Mode - Built
 Glass - Topo Chico Bottle
