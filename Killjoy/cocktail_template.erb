@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><%= skeleton_key.cocktail_name %></title>
+	<title>Summer 2020 Cocktail spec sheet</title>
 </head>
 <body>
-	<h1><%= skeleton_key.cocktail_name %></h1>
+	<h1>Summer 2020 Cocktail spec sheet</h1>
 	<table>
-		<th>Ingredient</th><th>Volume</th>
-		<% skeleton_key.ingredients.each do |ingredient, amount| %>
-		<tr>
-			<td><%= "#{ingredient}" %></td>
-			<td><%= "#{amount}" %></td>
-		</tr>
+		<%cocktails.each do |cocktail| %>
+			<%= "#{cocktail.cocktail_name}" %>
+		<table>
+			<th>Ingredient</th><th>Amount</th>
+			<% cocktail.ingredients.each do |ingredient, amount| %>
+			<tr> 
+				<td><%= "#{ingredient}" %></td>
+				<td><%= "#{amount}" %></td>
+			</tr>
+			<% end %>
+		</table>
+		<p><%= "#{cocktail.description}"%><p>
 		<% end %>
 	</table>
-
-	<p><%= "#{skeleton_key.process}" %><p>
-
- 	<p><%= "#{skeleton_key.description}"%><p>
 </body>
 </html>
