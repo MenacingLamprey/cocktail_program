@@ -18,10 +18,6 @@ class MenuFormatter
 			line.nil? || line.length==2
 		end
 
-		def get_name(line)
-			[line[6..], skip_line(2)]
-		end
-
 		def get_ingredients(line)
 			ingredients = ""
 			until line_empty?(line)
@@ -31,20 +27,9 @@ class MenuFormatter
 			[ingredients, skip_line]
 		end
 
-		def get_mode(line)
-			[line[7..], skip_line]
-		end
-
-		def get_glass(line)
-			[line[8..], skip_line]
-		end
-
-		def get_garnish(line)
-			[line[10..], skip_line(2)]
-		end	
-
-		def get_desciption(line)
-			[line[19..], skip_line(3)]
+		def get_info(line)
+			split_point = /-/ =~line
+			[line[split_point+1..], skip_line]
 		end
 
 		def format_ingredients(ingredients)
@@ -59,12 +44,17 @@ class MenuFormatter
 			return formatted_ingredients
 		end
 
-		cocktail_name, line = get_name(line)
+		cocktail_name, line = get_info(line)
+		line = skip_line
+
 		ingredients, line  = get_ingredients(line)
-		mode, line = get_mode(line)
-		glass, line = get_glass(line)
-		garnish , line = get_garnish(line)
-		description, line = get_desciption(line)
+		mode, line = get_info(line)
+		glass, line = get_info(line)
+		garnish , line = get_info(line)
+		line = skip_line
+		
+		description, line = get_info(line)
+		line = skip_line(2)
 
 		[Cocktail.new(cocktail_name, format_ingredients(ingredients), description, mode, 
 					 glass, garnish, image = nil), line]

@@ -1,7 +1,7 @@
 Summer 2020 - Specs
 
 
-Name: Ube Old Fashioned 
+Name - Ube Old Fashioned 
 
 2 oz - Old Forester
 0.5 oz - Ube Cordial
@@ -14,7 +14,7 @@ Garnish - Orange Peel
 Info + Technique - Build in the glass over Block Ice, stir 30-40 rotations (dependant on block size / More rotations for larger ice)
 end
 
-Name: Manero
+Name - Manero
 
 1.5 oz - Midori
 1 oz - Cachaca
@@ -27,7 +27,7 @@ Garnish - Matcha Tea Powder
 Info + Technique - Dry Shake with one cube of Ice, Ice shake with the small tin full of cube ice. Double strain into a coupe. Garnish with a sprinkle of Matcha Tea Powder.
 end
 
-Name: Baby 81 
+Name - Baby 81 
 
 1.5 oz - Baby 81 mix
 0.5 oz - Lemon Juice
@@ -41,7 +41,7 @@ Garnish - Apricot Ribbon on a pick
 Info + Technique - Shake Mix, Lemon and Simple. Pop tin. Top Tin with sparkling wine. Strain into a coupe. Garnish with Apricot Ribbon on a pick.
 end
 
-Name: R.O.S.
+Name - R.O.S.
 
 1.5 oz - Cynar
 0.5 oz - Thai Tea Syrup
@@ -54,7 +54,7 @@ Garnish - Lemon Peel
 Info + Technique - A major issue with tall / long drinks is their predilection to separate flavors. This issue is compounded by the weight of the ingredients utilized in this drink. To avoid this we will roll the drink instead of building it in the glass so as to blend every flavor together. Add all ingredients to a tin filled halfway with cube ice. Roll into a Collins glass twice. Garnish with Lemon Peel and a straw. Top with additional Guinness for a frothy head. 
 end
 
-Name: Skeleton Key
+Name - Skeleton Key
 
 1.5 oz - Skeleton Mix
 1 pip - Green Bitters
@@ -67,7 +67,7 @@ Garnish - Skeleton Leaf
 Info + Technique - This drink is a classic vodka soda highball fancied up with some infusions and a pretty garnish. The ingredients are very thin, so they can be built in the glass with no issue. For consistency sake, add the ice to the Collins glass - pour the mixture into the glass, top with soda, stir, top with additional soda and then the green bitters.
 end
 
-Name: Godcousin
+Name - Godcousin
 
 1 pt - Cognac
 1 pt - Amaretto
@@ -83,7 +83,7 @@ Garnish - Bitters Halo, Umbrella + Bendy Straw
 Info + Technique - Frozen drinks can be tricky, fluctuations can occur due to minor environmental factors. The consistency we will aim for Fill a Double Old Fashioned Glass with frozen cocktail to the ¾ mark. Top with a couple dashes of Angostura Bitters. Fill the rest of the glass with frozen drink by aiming the stream right down the center. Top with Umbrella + Bendy Straw. 
 end
 
-Name: The Luckiest
+Name - The Luckiest
 
 3 oz - Luckiest Mix
 Pinch - Marshmallows
@@ -95,7 +95,7 @@ Garnish - Marshmallows
 Info + Technique - A Clarified Milk Punch with an even more esoteric culinary technique applied with dairy infusion. We take Mexican Crema and infuse that with the grain portion of Lucky Charms. We strain out this mixture and combine it with Bushmill’s Irish Whisky, Cocchi Americano, Lemon Juice, Earl Grey Tea and Simple Syrup. This sits overnight, when the curds seperate from the whey we strain this through a microbag and bottle it. 
 end
 
-Name: Liberty Square
+Name - Liberty Square
 
 3 oz - Liberty Square Mix
 2 dashes - Angostura Bitters
@@ -107,7 +107,7 @@ Garnish - Plantain Chip
 Info + Technique - Fat washed Manhattan variation with an interesting choice of garnish. We take the small marrow-rich bones from spare ribs, char them to a crisp in the broiler and force infuse them with vida mezcal utilizing an isi whipper. The Rib Mezcal is then left in a freezer overnight where the fats will separate and solidify at the top of the mixture. Strain this off and combine with Cocchi Torino and a pinch of salt.
 end
 
-Name: Tahini Colada
+Name - Tahini Colada
 
 1.5 oz - Tahini Coconut Cream
 1.5 oz - Pineapple Juice
@@ -121,7 +121,7 @@ Garnish - Cranberry Bitters + Bay Leaves
 Info + Technique - Whipping drinks is short speak for a lazy pebble ice shake. The purpose being to mix the ingredients without chilling them drastically. Combine the Tahini Coconut Cream with Pineapple juice and about 4-5 pebbles of ice. Short shake and dirty dump into a collins glass. Fill the glass with pebble ice and swizzle. Garnish with a couple dashes of Cranberry Bitters, a crown of Ice, straw and Cracked Bay Leaves sticking out of the glass like rabbit ears. 
 end
 
-Name: Paddle Flower
+Name - Paddle Flower
 
 2.5 oz - Cactus Tonic
 .5 oz - Lime Juice
@@ -135,7 +135,7 @@ Garnish - Candied Prickly Pear
 Info + Technique - The term Tonic has been used to describe a quinine based sparkling water beverage accompanied by a clear spirit in highball form. You may be surprised to hear that the actual definition of a tonic is “a medicinal substance taken to give a feeling of vigor or well-being”. With that being said, we will have a rotating selection of seasonal tonics that provide more than just a refreshing experience. This season’s tonic is Cactus to aid in hydration. Aloe contains many other health benefits as well as its counterparts, Lemongrass and Jasmine. To make this drink, Shake as you would any other shaken drink and strain into a Nick & Nora Glass. Top with 1 oz of Soda and garnish with a quartered cube of Candied Prickly Pear on a pick laying across the glass. 
 end
 
-Name: Gordon’s Chip
+Name - Gordon’s Chip
 
 1.5 oz - Pineapple Juice
 0.75 oz - Lime Juice
@@ -151,7 +151,7 @@ Garnish - Cucumber Slices + Pinch of S+P
 Info + Technique - This drink is intended to scratch the Bloody Mary itch folks may have. Based on the Gordon’s Breakfast which in turn was based on the Gordon’s Cup. Combine the Pineapple, Lime, Simple Syrup, Valentina, 2 cucumber slices and a pinch of S+P in a cocktail shaker. Shake with about 5 cubes. Dirty dump the mix into the bottom of a Double Old Fashioned Glass. Top with hand cracked ice cubes. Garnish with a pinch of S+P and a couple Cucumber Slices (coupled and sticking out of the glass like a sunset).
 end
 
-Name: Horse Apple
+Name - Horse Apple
 
 4 oz - Whipped Grannysmith Apple Juice
 1 pip - Horse Bitters
@@ -163,7 +163,7 @@ Garnish - Fresh Grated Horseradish
 Info + Technique - Only original in the addition of Horse Bitters (combination of Horseradish Vodka and Chamomile Tincture). This classic cocktail hails from the same pantheon of classics like the stone fence and hot toddy. Simple straightforward combination of apple juice and horseradish. We run the apple through a centrifugal juicer to give it a frothy whipped texture. Grab your glass and Block Ice, drop the bitters in the bottom. Quarter an apple, removing any stickers. Insert quarter by quarter, pressing down on the top of the pressure inducer. Juice will flow, the villagers rejoice. Garnish with fresh grated Horseradish using a microplane. Do not use the microplane for anything else. 
 end
 
-Name: ACC Highball
+Name - ACC Highball
 
 4 oz - ACC Mix
 0.5 oz - Simple Syrup
@@ -176,7 +176,7 @@ Garnish - Whipped Salted Cashew Cream
 Info + Technique - Named after the use of Acorn, Chicory and Cashew. This drink is for the coffee folks that don't feel like drinking coffee. Combine the Mix with simple in the bottle of a collins glass full of cube ice. Stir briefly and top with whipped cashew cream using the back of a barspoon to lessen the impact and allow it to float. 
 end
 
-Name: Gimlette
+Name - Gimlette
 
 2.5 oz - Botanica Mix
 0.5 oz - Lime Juice
@@ -188,7 +188,7 @@ Garnish - Chicha Morada Rim
 Info + Technique - This drink is inspired by the Gimlet. We essentially took the botanicals present in a gin and turned them into a concentrated syrup. Shake just like any other sour style drink. Rim one side of the glass only. 
 end
 
-Name: Chico Bounce
+Name - Chico Bounce
 
 1 - bottle of Topo Chico
 1 oz - Cherry Shrub
@@ -203,7 +203,7 @@ Garnish - Rosemary, Orange Peel, Cherry
 Info + Technique - Think a spanish G+T but in a bottle of soda water and for sober folks. Start by cracking open the bottle of Topo Chico, Pour out about 2 oz (right under the bend). Add the shrub, rosemary and orange peel. Using the circle of your hand, shove the cherry in with the back of a barspoon (blunderbuss style). Top with whatever soda water remains, serve it on the side if any is left after that.
 end
 
-Name: Julepless
+Name - Julepless
 
 3 oz - Julepless Mix
 2 dashes - Mint Bitters
