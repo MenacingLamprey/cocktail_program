@@ -46,7 +46,8 @@ class MenuFormatter
 
 		cocktail_name, line = get_info(line)
 		line = skip_line
-
+		price, line = get_info(line)
+		line = skip_line
 		ingredients, line  = get_ingredients(line)
 		mode, line = get_info(line)
 		glass, line = get_info(line)
@@ -57,7 +58,7 @@ class MenuFormatter
 		line = skip_line(2)
 
 		[Cocktail.new(cocktail_name, format_ingredients(ingredients), description, mode, 
-					 glass, garnish, image = nil), line]
+					 glass, garnish, price, image = nil), line]
 	end
 
 	def make_menu(line =unformatted_menu.gets)

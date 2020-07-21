@@ -1,7 +1,9 @@
 Summer 2020 - Specs
 
 
-Name - Ube Old Fashioned 
+Name - Ube Old Fashioned
+
+price - 12
 
 2 oz - Old Forester
 0.5 oz - Ube Cordial
@@ -16,6 +18,8 @@ end
 
 Name - Manero
 
+price - 12
+
 1.5 oz - Midori
 1 oz - Cachaca
 1 - Egg
@@ -28,6 +32,8 @@ Info + Technique - Dry Shake with one cube of Ice, Ice shake with the small tin 
 end
 
 Name - Baby 81 
+
+price - 11
 
 1.5 oz - Baby 81 mix
 0.5 oz - Lemon Juice
@@ -43,6 +49,8 @@ end
 
 Name - R.O.S.
 
+price - 11
+
 1.5 oz - Cynar
 0.5 oz - Thai Tea Syrup
 3 oz -  Guinness
@@ -56,6 +64,8 @@ end
 
 Name - Skeleton Key
 
+price - 10
+
 1.5 oz - Skeleton Mix
 1 pip - Green Bitters
 3 oz - Soda Water
@@ -68,6 +78,8 @@ Info + Technique - This drink is a classic vodka soda highball fancied up with s
 end
 
 Name - Godcousin
+
+price - 12
 
 1 pt - Cognac
 1 pt - Amaretto
@@ -85,6 +97,8 @@ end
 
 Name - The Luckiest
 
+price - 13
+
 3 oz - Luckiest Mix
 Pinch - Marshmallows
 
@@ -97,6 +111,8 @@ end
 
 Name - Liberty Square
 
+price - 13
+
 3 oz - Liberty Square Mix
 2 dashes - Angostura Bitters
 
@@ -108,6 +124,8 @@ Info + Technique - Fat washed Manhattan variation with an interesting choice of 
 end
 
 Name - Tahini Colada
+
+price - 8
 
 1.5 oz - Tahini Coconut Cream
 1.5 oz - Pineapple Juice
@@ -123,6 +141,8 @@ end
 
 Name - Paddle Flower
 
+price - 9
+
 2.5 oz - Cactus Tonic
 .5 oz - Lime Juice
 1 pip - Desert Flower Tincture
@@ -136,6 +156,8 @@ Info + Technique - The term Tonic has been used to describe a quinine based spar
 end
 
 Name - Gordon’s Chip
+
+price - 9
 
 1.5 oz - Pineapple Juice
 0.75 oz - Lime Juice
@@ -153,6 +175,8 @@ end
 
 Name - Horse Apple
 
+price - 8
+
 4 oz - Whipped Grannysmith Apple Juice
 1 pip - Horse Bitters
 
@@ -164,6 +188,8 @@ Info + Technique - Only original in the addition of Horse Bitters (combination o
 end
 
 Name - ACC Highball
+
+price - 9
 
 4 oz - ACC Mix
 0.5 oz - Simple Syrup
@@ -178,6 +204,8 @@ end
 
 Name - Gimlette
 
+price - 8
+
 2.5 oz - Botanica Mix
 0.5 oz - Lime Juice
 
@@ -189,6 +217,8 @@ Info + Technique - This drink is inspired by the Gimlet. We essentially took the
 end
 
 Name - Chico Bounce
+
+price - 7
 
 1 - bottle of Topo Chico
 1 oz - Cherry Shrub
@@ -204,6 +234,8 @@ Info + Technique - Think a spanish G+T but in a bottle of soda water and for sob
 end
 
 Name - Julepless
+
+price - 9
 
 3 oz - Julepless Mix
 2 dashes - Mint Bitters

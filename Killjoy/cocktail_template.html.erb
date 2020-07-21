@@ -8,7 +8,7 @@
 	<h1>Summer 2020 Cocktail spec sheet</h1>
 	<%cocktails.each do |cocktail| %>
 		<div><h2><u><%= cocktail.cocktail_name%></u></h2>
-	<table>
+	<table id ="ingredients">
 		<th>Ingredient</th><th>Amount</th>
 		<% cocktail.ingredients.each do |ingredient, amount| %>
 		<tr> 
