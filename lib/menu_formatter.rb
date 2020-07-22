@@ -1,4 +1,5 @@
 require_relative 'cocktail'
+require_relative 'ingredient'
 require 'erb'
 
 class MenuFormatter
@@ -18,6 +19,11 @@ class MenuFormatter
 			line.nil? || line.length==2
 		end
 
+		def get_info(line)
+			split_point = /-/ =~line
+			[line[split_point+1..], skip_line]
+		end
+
 		def get_ingredients(line)
 			ingredients = ""
 			until line_empty?(line)
@@ -27,19 +33,23 @@ class MenuFormatter
 			[ingredients, skip_line]
 		end
 
-		def get_info(line)
-			split_point = /-/ =~line
-			[line[split_point+1..], skip_line]
-		end
-
 		def format_ingredients(ingredients)
 			ingredients = ingredients.split("\r\n")
-			formatted_ingredients = {}
-			ingredients.each do |ingredient_pair|
-				split_point = /-/ =~ingredient_pair
-				amount = ingredient_pair[0...split_point-1]
-				ingredient = ingredient_pair[split_point+2..]
-				formatted_ingredients[ingredient]= amount
+			formatted_ingredients = []
+			ingredients.each do |ingredient|
+				split_name = /-/ =~ingredient
+				ingredient_name = ingredient[split_name+2..]
+				amount_unit = ingredient[0...split_name-1]
+				split_unit = / / =~amount_unit
+				amount = amount_unit[0...split_unit]
+				unless split_unit.nil?
+					unit = amount_unit[split_unit+1..]
+				end
+
+				this_ingredient = Ingredient.new(ingredient_name,
+												amount,
+												unit)
+				formatted_ingredients.push(this_ingredient)
 			end
 			return formatted_ingredients
 		end
@@ -70,4 +80,4 @@ class MenuFormatter
 		end
 		drinks
 	end
-end			
+end
