@@ -81,12 +81,12 @@ Name - Godcousin
 
 price - 12
 
-1 pt - Cognac
-1 pt - Amaretto
-1 pt - Passionfruit Puree
-1 pt - Lemon Juice
-3 pt - Cinnamon Tea
-5/3 pt - Simple Syrup
+1.3 oz - Cognac
+1.3 oz - Amaretto
+.8 oz - Passionfruit Puree
+1.3 oz - Lemon Juice
+5 oz - Cinnamon Tea
+2 oz - Simple Syrup
 
 Mode - Frozen
 Glass - Double Old Fashioned Glass

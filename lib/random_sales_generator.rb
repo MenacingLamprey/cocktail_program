@@ -52,9 +52,9 @@ class SalesGenerator
 	end
 end
 
-generator = SalesGenerator.new(10000, "Killjoy")
-generator.weighting([0.10,0.05,0.07,0.1,0.1, 0.08,0.07,
-						0.06,0.04,0.04,0.04,0.04,0.05,0.08,0.04,0.04])
+generator = SalesGenerator.new(5000, "Killjoy")
+generator.weighting([0.10,0.06,0.08,0.1,0.1, 0.08,0.07,
+						0.06,0.04,0.04,0.04,0.04,0.05,0.06,0.04,0.04])
 
 output_location = "Killjoy/sales_data/generated_data.txt"
 
@@ -65,4 +65,4 @@ File.open(output_location, 'w') do |file|
 		file.puts random_sales
 end
 
-puts " success! check sales data"
+puts "success! check sales data"

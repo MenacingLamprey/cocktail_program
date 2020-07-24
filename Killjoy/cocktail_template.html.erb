@@ -10,10 +10,10 @@
 		<div><h2><u><%= cocktail.cocktail_name%></u></h2>
 	<table id ="ingredients">
 		<th>Ingredient</th><th>Amount</th>
-		<% cocktail.ingredients.each do |ingredient, amount| %>
+		<% cocktail.ingredients.each do |ingredient| %>
 		<tr> 
-			<td><%= ingredient %></td>
-			<td><%= amount %></td>
+			<td><%= ingredient.ingredient_name %></td>
+			<td><%= "#{ingredient.amount} #{ingredient.unit}" %></td>
 		</tr>
 		<% end %>
 	</table>
