@@ -14,7 +14,7 @@ class MenuFormatter
 	end
 
 	def line_empty?(line)
-			line.nil? || line.length==2
+		line.nil? || line == "\r\n" || line =="\n"
 	end
 
 	def get_info(line)
@@ -31,8 +31,8 @@ class MenuFormatter
 		[ingredients, skip_line]
 	end
 
-	def format_ingredients(ingredients)
-		ingredients = ingredients.split("\r\n")
+	def format_ingredients(ingredients,line_division)
+		ingredients = ingredients.split(line_division)
 		formatted_ingredients = []
 
 		ingredients.each do |ingredient|
@@ -45,7 +45,7 @@ class MenuFormatter
 			unless amount.to_f ==0
 				amount = amount.to_f
 			end 
-			
+
 			if amount % 1 == 0
 				amount = amount.to_i
 			end
@@ -55,6 +55,7 @@ class MenuFormatter
 
 			this_ingredient = Ingredient.new(ingredient_name,
 											amount,unit)
+			this_ingredient.string_number
 			formatted_ingredients.push(this_ingredient)
 		end
 		formatted_ingredients
@@ -65,7 +66,10 @@ class MenuFormatter
 		line = skip_line
 		price, line = get_info(line)
 		line = skip_line
+
 		ingredients, line  = get_ingredients(line)
+		ingredients = format_ingredients(ingredients,"\r\n")
+
 		mode, line = get_info(line)
 		glass, line = get_info(line)
 		garnish , line = get_info(line)
@@ -74,17 +78,31 @@ class MenuFormatter
 		description, line = get_info(line)
 		line = skip_line(2)
 
-		[Cocktail.new(cocktail_name, format_ingredients(ingredients), description, mode, 
+		[Cocktail.new(cocktail_name, ingredients, description, mode, 
 					 glass, garnish, price, image = nil), line]
 	end
 
+	def wrong_line?(line,start)
+		begining = start.length
+		if line[0...begining] ==! start
+			puts "Error, the #{start} line is not being read"
+		end
+	end
+
+
 	def get_crafted_ingredient(line)
+		wrong_line?(line,"Name")
 		ingredient_name, line = get_info(line)
 		line = skip_line
+		
 		ingredients, line  = get_ingredients(line)
-		ingredients = format_ingredients(ingredients)
+		ingredients = format_ingredients(ingredients,"\n")
 
+		wrong_line?(line,"Info")
 		description, line = get_info(line)
+		line = skip_line
+
+		wrong_line?(line,"Yield")
 		yeild, line = get_info(line)
 		line = skip_line(2)
 
@@ -92,17 +110,26 @@ class MenuFormatter
 		amount = yeild[0...amount_unit]
 		unit = yeild[amount_unit+1..]
 
+		[Ingredient.new(ingredient_name,amount,unit,
+							description, ingredients),line]
+	end
 
-		ingredient.new(ingredient_name,amount,unit,ingredients)
+	def make_list(line, list_type)
+		list_type = method(list_type)
+		line = skip_line(3)
+		items =[]
+		until line.nil? or line == "/////"
+			next_item,line = list_type.call(line)
+			items.push(next_item)
+		end
+		items
 	end
 
 	def make_menu(line =unformatted_menu.gets)
-		line = skip_line(3)
-		drinks =[]
-		until line.nil?
-			next_cocktail,line = get_cocktail(line)
-			drinks.push(next_cocktail)
-		end
-		drinks
+		make_list(line, :get_cocktail)
+	end
+
+	def make_prep_list(line =unformatted_menu.gets)
+		make_list(line, :get_crafted_ingredient)
 	end
 end

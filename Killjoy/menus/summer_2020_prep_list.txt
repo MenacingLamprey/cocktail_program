@@ -1,11 +1,11 @@
-Summer 2020 - prep list
+SSummer 2020 - prep list
 
 
 Name - Ube cordial
 
 8 oz - 100 proof New Amsterdam Vodka
 8 oz - Simple Syrup
-.125 oz - Ube Extract
+0.125 oz - Ube Extract
 
 Info + Technique - Mix ingredients and stir
 
@@ -40,9 +40,8 @@ Yeild - 2250 mL
 
 Name - The Luckiest
 
-
 750 mL - Oat Infused Mexican Crema
-750 mL - Bushmills Scotch
+750 mL - Bushmills Irish Whiskey
 750 mL - Cocchi Aperitivo Americano
 375 mL - Simple Syrup
 375 mL - Lemon Juice
@@ -72,13 +71,15 @@ pinch - Salt
 
 Info + Technique - Stir all ingredients together
 
+Yield - 1500 mL 
+
 
 Name - Salted Cashew Cream
 
-24 oz - Roasted Unsalted Cashews
-24 oz - Water
+24 oz(weight) - Roasted Unsalted Cashews
+32 oz - Water
 pinch - Salt
-pinch - sugar
+to Taste - sugar
 
 Info + Technique - Blend all ingredeints together, strain.
 
@@ -93,6 +94,8 @@ Name - ACC Mix
 
 Info + Technique - bring Water to a boil with Chickory and Acorn Coffee, allow contents to properly diffuse (4 -10 min) strain through fine bag or coffee filter
 
+Yeild - 30 oz
+
 
 Name - Thai Tea Syrup
 
@@ -103,57 +106,56 @@ Info + Technique - Mix hot Thai Tea with Sugar and stir vigorously to dissolve S
 
 Yeild - 700 mL
 
-Yeild - 30 oz
-
-
-Name - Cactus Tonic
-
- -
-
-Info + Technique - 
-
-Yeild - 
-
 
 Name - Tahini Coconut Cream
 
- -
+1 - Can of Coconut Cream (14 oz)
+7 oz - Sugar
+pinch - Salt
+.25 oz - Absinthe
 
-Info + Technique - 
+Info + Technique - Let Cocunut Cream sit in hot water untill sufficiently warm enough to desolve sugar, add salt and absinthe. Stir vigorously
 
-Yeild - 
-
-Name - Cactus Tonic
-
- -
-
-Info + Technique - 
-
-Yeild - 
+Yeild - 17 oz
 
 
 Name - Botanica Mix
 
- -
+125 mL - RoseMary
+2 oz - Juniper
+2 oz - Black Pepper
+2 - Whole Lemon peels
+1000 mL - Water
+1000 mL - Sugar 
 
-Info + Technique - 
+Info + Technique - Bring Rosemary to a boil with half of water, add lemon peels, let rest for 15 min. Bring Juniper and Black Pepper to a boil with the rest of the water, let mixture continue to boil for 15 min. Strain, add sugar, stir until disolved.
 
-Yeild - 
+Yeild - 1500 mL
+
+
+Name - Cactus Tonic
+
+amount - ingredients
+
+Info + Technique - description
+
+Yeild - amount
 
 
 Name - Cherry Shrub
 
- -
+amount - ingredients
 
-Info + Technique - 
+Info + Technique - description
 
-Yeild - 
+Yeild - amount
 
 
 Name - Julepless Mix
 
- -
+amount - ingredients
 
-Info + Technique - 
+Info + Technique - description
 
-Yeild - 
+Yeild - amount 
+end

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Summer 2020 prep sheet</title>
+	<link href = "styles/style.css" rel = "stylesheet">
+</head>
+<body>
+	<h1>Summer 2020 Prep sheet</h1>
+	<%prep_list.each do |ingredient| %>
+		<div><h2><u><%= ingredient.ingredient_name%></u></h2>
+	<table id ="ingredients">
+		<th>Ingredient</th><th>Amount</th>
+		<% ingredient.ingredients.each do |sub_ingredient| %>
+		<tr> 
+			<td><%=sub_ingredient.ingredient_name %></td>
+			<td><%="#{sub_ingredient.amount} #{sub_ingredient.unit}" %></td>
+		</tr>
+		<% end %>
+	</table>
+	<p><%= ingredient.method%></p></div>
+	<% end %>
+</body>
+</html>
